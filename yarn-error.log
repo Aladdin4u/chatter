@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Aladdin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\Aladdin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\Aladdin\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Docker Toolbox;C:\Users\Aladdin\AppData\Roaming\npm;C:\Users\Aladdin\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: read ECONNRESET
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+
+npm manifest: 
+  {
+    "private": true,
+    "sideEffects": false,
+    "scripts": {
+      "build": "remix build",
+      "dev": "remix dev",
+      "typecheck": "tsc"
+    },
+    "dependencies": {
+      "@remix-run/css-bundle": "^1.18.1",
+      "@remix-run/node": "^1.18.1",
+      "@remix-run/react": "^1.18.1",
+      "@remix-run/vercel": "^1.18.1",
+      "@vercel/node": "^2.10.3",
+      "isbot": "^3.6.8",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "@remix-run/dev": "^1.18.1",
+      "@remix-run/eslint-config": "^1.18.1",
+      "@remix-run/serve": "^1.18.1",
+      "@types/react": "^18.0.35",
+      "@types/react-dom": "^18.0.11",
+      "eslint": "^8.38.0",
+      "typescript": "^5.0.4"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
