@@ -16,7 +16,6 @@ import { createBrowserClient } from "@supabase/auth-helpers-remix";
 
 import { SupabaseClient } from "@supabase/supabase-js";
 import type { Database } from "db_types";
-import server from "server";
 
 type TypedSupabaseClient = SupabaseClient<Database>
 
